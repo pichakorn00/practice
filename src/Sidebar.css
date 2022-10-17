@@ -1,0 +1,137 @@
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 240px;
+  height: calc(100% - 60px);
+  background-color: #202020;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: all 0.5 ease;
+}
+
+.sidebar.active {
+  overflow-y: hidden;
+  width: 72px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: #717171;
+}
+
+.sidebar.active .nav {
+  border: none;
+}
+
+.sidebar .nav {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #717171;
+}
+
+.sidebar .nav .navTitle {
+  width: 100%;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.sidebar .nav .navTitle .title {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sidebar .nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 27px;
+  /* font-size: 16px; */
+  /* border: 1px solid green; */
+}
+
+.sidebar.active .nav a {
+  height: 55px;
+  line-height: 55px;
+  /* margin: auto; */
+}
+
+/* .sidebar .nav a {
+  background-color: #383838;
+} */
+
+.sidebar .nav a:hover {
+  background-color: #383838;
+}
+
+.sidebar .nav a .logoItem {
+  font-size: 20px;
+}
+
+.sidebar .nav a .imgLogo {
+  border: 0;
+  outline: none;
+  width: 21px;
+  height: 21px;
+  background-color: #fff;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.sidebar.active .nav a .item {
+  display: none;
+  /* padding-left: 25px; */
+}
+
+.sidebar .nav a .item {
+  padding-left: 27px;
+  /* border: 1px solid green; */
+}
+
+.sidebar.active .nav.list3{
+  display: none;
+}
+
+.sidebar.active .nav.list4{
+  display: none;
+}
+
+.sidebar.active .nav.list5{
+  display: none;
+}
+
+.sidebar .nav.list3 a .item.more {
+  padding-left: 27px;
+}
+
+.sidebar .nav.list3 a .item {
+  padding-left: 23px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #202020;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: 9px;
+  background-color: #202020;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #717171;
+}

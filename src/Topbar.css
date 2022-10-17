@@ -1,0 +1,197 @@
+.topBar {
+    overflow: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 85%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.searchWarp {
+    width: 600px;
+    margin: auto;
+    /* border: 3px solid green; */
+}
+
+.searchWarp .searchBar {
+    display: flex;
+    height: 35px;
+    background-color: #202020;
+    min-width: 18% !important;
+    border: 1px solid #343434;
+    border-radius: 3px;
+}
+
+.searchWarp .searchBar .input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    background-color: #121212;
+    /* border: none; */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.searchWarp .searchBar .button {
+    padding: 0px 20px;
+    background-color: #343434;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.searchWarp button {
+    border: 0;
+    outline: none;
+}
+
+.searchWarp .button1 {
+    background-color: #202020;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 19px;
+    padding-top: 5px;
+    border-radius: 50%;
+    display: none;
+}
+
+.searchBar input {
+    border: 0;
+    outline: none;
+}
+
+.searchBar button {
+    border: 0;
+    outline: none;
+}
+
+.leftSide {
+    width: 635px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* top: 0; */
+    /* border: 3px solid green; */
+}
+
+.leftSide button {
+    border: 0;
+    outline: none;
+}
+
+.leftSide .menuList {
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.leftSide img {
+    border: 0;
+    outline: none;
+}
+
+.leftSide a {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.leftSide a .textLogo {
+    color: #fff;
+}
+
+.leftSide a .imgLogo {
+    width: 30px;
+    height: 20px;
+    padding-right: 3px;
+}
+
+.rightSide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 635px;
+    padding-right: 15px;
+    align-items: center;
+    /* border: 3px solid green; */
+}
+
+.rightSide .buttonAudio {
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    /* padding: 0px 12px; */
+    background-color: #121212;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 19px;
+    padding-top: 5px;
+}
+
+.rightSide .buttonAudio.bt2 {
+    background-color: #202020;
+    display: none;
+}
+
+.rightSide button {
+    border: 0;
+    outline: none;
+}
+
+.rightSide .otherMenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    right: 10px;
+}
+
+.rightSide .otherMenu .imgButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    font-size: 19px;
+    color: #fff;
+    top: 0;
+    padding-top: 5px;
+}
+
+.rightSide .otherMenu .imgButton.button1 {
+    background: none;
+}
+
+.rightSide .otherMenu .imgButton.button2 {
+    background: none;
+}
+
+.rightSide .otherMenu .imgButton.button3 {
+    background: url(https://cdn.discordapp.com/attachments/1025408167577927750/1030422298253074482/IMG_20221014_170828.jpg);
+    background-size: cover;
+}
+
+.rightSide .otherMenu button {
+    border: 0;
+    outline: none;
+}
